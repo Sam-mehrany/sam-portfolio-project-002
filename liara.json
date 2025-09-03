@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "app": "sam-portfolio-backend",
+      "port": 3000,
+      "root": "backend",
+      "platform": "node"
+    },
+    {
+      "app": "sam-portfolio-frontend",
+      "port": 3000,
+      "root": "frontend",
+      "platform": "next"
+    }
+  ]
+}
