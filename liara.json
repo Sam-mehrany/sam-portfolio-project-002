@@ -1,13 +1,16 @@
 {
-  "app": "sam-portfolio-backend",
-  "port": 3000,
-  "build": {
-    "location": "iran"
-  },
-  "disks": [
+  "apps": [
     {
-      "name": "uploads",
-      "mountTo": "path/to/folder"
+      "app": "sam-portfolio-backend",
+      "port": 3000,
+      "root": "backend",
+      "platform": "node",
+      "disks": [
+        {
+          "name": "uploads",
+          "mountTo": "uploads"
+        }
+      ]
     }
   ]
 }
