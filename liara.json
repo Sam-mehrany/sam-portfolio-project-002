@@ -1,0 +1,13 @@
+{
+  "app": "sam-portfolio-backend",
+  "port": 3000,
+  "build": {
+    "location": "iran"
+  },
+  "disks": [
+    {
+      "name": "uploads",
+      "mountTo": "path/to/folder"
+    }
+  ]
+}
