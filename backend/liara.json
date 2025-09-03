@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "app": "sam-portfolio-backend",
+      "port": 3000,
+      "root": "backend",
+      "platform": "node"
+    }
+  ]
+}
