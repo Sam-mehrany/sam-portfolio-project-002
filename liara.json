@@ -1,0 +1,11 @@
+{
+  "platform": "node",
+  "port": 3000,
+  "start": "node server/index.js",
+  "disks": [
+    {
+      "name": "uploads",
+      "mountTo": "uploads"
+    }
+  ]
+}
